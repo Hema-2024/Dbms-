@@ -1,0 +1,97 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="receiver.css">
+<section class="h-100 h-custom gradient-custom-2 temp">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12">
+          <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+            <div class="card-body p-0">
+              <form method="post" action="/receiverpage">
+              <p style="margin:auto;color:#d63c49; background-color: rgb(237, 205, 207);"><%=temp %></p>
+              <div class="row g-0">
+                <div class="col-lg-6">
+                  <!-- <form method="post" action="/receiverpage"> -->
+                    <!-- <p style="margin:auto;color:#d63c49; background-color: rgb(237, 205, 207);"><%=temp %></p> -->
+                  <div class="p-5">
+                    <!-- <h3 class="fw-normal mb-3" style="color: #161617;">General Infomation</h3> -->
+                    
+                    <h5>Donar Infomation</h5>
+                    <div class="row">
+                      <div class="form-group was-validated">
+                        <div class="form-outline">
+                          <input type="text" id="form3Examplev2" class="form-control form-control-sm"  name="Name" required/>
+
+                          <label class="form-label" for="form3Examplev2"  >Donar name</label>
+                        </div>
+  
+                      </div>
+                      <div class="row">
+  
+                        <div class="form-outline">
+                          <input type="text" id="form3Examplev3" class="form-control form-control-sm" name="username" required/>
+                          <label class="form-label" for="form3Examplev3">User name</label>
+                        </div>
+  
+                      </div>
+                    </div>
+  
+                    <div class="mb-4 pb-2">
+                      <div class="form-outline">
+                        <input type="text" id="form3Examplev4" class="form-control form-control-sm" name="Phonenum" required/>
+                        <label class="form-label" for="form3Examplev4">Phone number</label>
+                      </div>
+                    </div>
+
+                      </div>
+                    </div>
+                    <div class="col-lg-6 bg-indigo text-white" required>
+                      <div class="p-5" >
+                        <h5>Blood Details</h5>
+
+
+
+                    <div class="row">
+                      <div class="col-md-5 mb-3 pb-2 mb-md-0 pb-md-0">
+  
+                      
+                 
+  
+                    <div class="mb-4 pb-2">
+                      
+                        <label class="form-label" for="form3Examplea2" required>Your age </label>
+                        <input box="number" required name="Age" required><br>
+                        
+                    
+                      </div>
+                    </div>
+                  
+                  </div>
+                  <div>
+                  <label class="form-label" for="form3Examplea2" required> Do you have any health problems?</label><br>
+                  <input type="radio" id="html" name="health" value="Yes">
+                  <label for="html">Yes</label><br>
+                  <input type="radio" id="css" name="health" value="No">
+                  <label for="css">No</label><br>
+                
+                  </div>
+                  <div>
+                    
+                    
+                  </div>
+                 
+                      <input style="margin-top: 180px" class="btn btn-light w-80" type="submit" value="SIGN IN" name="submit">
+                      </div>
+  
+                  </div>
+                  
+                </form>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
